@@ -24,7 +24,7 @@ body {
 
 .pink-section {
   background-color: #ffd3e1;
-  width: 40vw;
+  width: 42vw;
   height: 100vh;
   position: relative;
 }
@@ -72,27 +72,27 @@ li {
 /* white section images */
 .tasty-pic1 {
   position: absolute;
-  top: 17%;
+  top: 15%;
   left: 50%;
 }
 
 .tasty-pic2 {
   position: absolute;
-  top: 40%;
-  left: 26%;
+  top: 38%;
+  left: 28%;
 }
 
 .tasty-pic3 {
   position: absolute;
-  top: 63%;
+  top: 61%;
   left: 50%;
 }
 
 /* pink section text */
 main h1 {
   position: absolute;
-  top: 33%;
-  left: -58%;
+  top: 31%;
+  left: -55%;
   color: #ec41a7;
   font-size: 110px;
   text-transform: uppercase;
@@ -102,15 +102,16 @@ main h1 {
 main p {
   position: absolute;
   top: 60%;
-  left: 5%;
+  left: 10%;
   color: #d31e8b;
-  font-size: 23px;
+  font-size: 25px;
+  width: 47%;
 }
 
 main button {
   position: absolute;
-  top: 80%;
-  left: 14%;
+  top: 76%;
+  left: 20%;
   cursor: pointer;
   padding: 5px 50px;
   border-radius: 40px;
