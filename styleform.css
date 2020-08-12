@@ -10,6 +10,10 @@ body {
   padding: 0;
 }
 
+.page-body {
+  position: relative;
+}
+
 header {
   display: flex;
   margin: 10px 50px;
@@ -21,9 +25,14 @@ ul a {
   list-style-type: none;
   text-decoration: none;
   float: left;
-  margin-top: 10px;
 }
 
 li {
-  margin: 10px;
+  margin-top: -5px;
+  padding: 0 22px;
+}
+
+.main-form {
+  position: absolute;
+  top: 50%;
 }
