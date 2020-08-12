@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+html {
+  font-family: "Caveat", cursive;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  margin: 10px 50px;
+  justify-content: space-between;
+  font-size: 21px;
+}
+
+ul a {
+  list-style-type: none;
+  text-decoration: none;
+  float: left;
+  margin-top: 10px;
+}
+
+li {
+  margin: 10px;
+}
