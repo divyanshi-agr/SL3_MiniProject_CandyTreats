@@ -24,15 +24,28 @@ header {
 ul a {
   list-style-type: none;
   text-decoration: none;
+  color: #ed3ba5;
   float: left;
+}
+
+.nav2 a li {
+  color: black;
 }
 
 li {
   margin-top: -5px;
-  padding: 0 22px;
+  padding: 0 25px;
 }
 
 .main-form {
   position: absolute;
-  top: 50%;
+  left: 40%;
+  border: 2px black solid;
+  top: 350%;
+}
+
+form {
+  width: 100%;
+  margin: 50px;
+  padding: 20px;
 }
