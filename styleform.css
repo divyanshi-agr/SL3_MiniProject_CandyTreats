@@ -39,14 +39,51 @@ li {
 
 .main-form {
   position: absolute;
-  left: 40%;
-  box-shadow: 5px 5px 20px #eeeeee;
-  top: 350%;
-  height: 500%;
+  left: 35%;
+  box-shadow: 5px 5px 20px #b9b7b7;
+  top: 300%;
+  height: 620%;
+  width: 30%;
+  border-radius: 5px;
 }
 
 form {
-  width: 100%;
-  margin: 50px;
-  padding: 20px;
+  align-items: center;
+  padding: 18px 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  margin: 20px;
+  margin-top: 6px;
+  padding: 6px;
+}
+
+input[type="submit"] {
+  width: 30%;
+  border: 3px solid #5dc261;
+  background: white;
+  padding: 8px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.form-para {
+  margin-top: 0;
+  text-transform: none;
+  font-size: 18px;
+}
+
+.form-para a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
 }
