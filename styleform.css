@@ -34,14 +34,15 @@ ul a {
 
 li {
   margin-top: -5px;
-  padding: 0 25px;
+  padding: 0 30px;
 }
 
 .main-form {
   position: absolute;
   left: 40%;
-  border: 2px black solid;
+  box-shadow: 5px 5px 20px #eeeeee;
   top: 350%;
+  height: 500%;
 }
 
 form {
