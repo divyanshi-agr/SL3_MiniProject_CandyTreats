@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styleform.css" />
+  </head>
+  <body>
+    <div class="page-body">
+      <header>
+        <a href="index.html"
+          ><img src="images/logo.png" class="logo" width="80" height="55"
+        /></a>
+
+        <div class="nav1">
+          <ul>
+            <a href="index.html"><li class="home-item">Home</li></a>
+            <a href="cakePage.html"><li>Cakes</li></a>
+            <a href="candyPage.html"><li>Candies</li></a>
+          </ul>
+        </div>
+        <div class="nav2">
+          <ul>
+            <a href="signin.html"><li class="signin-item">Sign In</li></a>
+            <a href="register.html"><li class="signin-item">Register</li></a>
+          </ul>
+        </div>
+      </header>
+
+      <main class="main-form">
+        <form>
+          <label for="fname">Name</label><br />
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email</label><br />
+          <input type="text" id="email" name="email" />
+          <label for="pwd">Password</label>
+          <input type="password" id="pwd" name="pwd" />
+          <input type="submit" value="Register" />
+          <p class="form-para">
+            Already have an account? <a href="signin.html"> Sign in</a>
+          </p>
+        </form>
+      </main>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>

@@ -28,6 +28,10 @@ ul a {
   float: left;
 }
 
+.nav1 ul {
+  margin-left: 130px;
+}
+
 .nav2 a li {
   color: black;
 }
