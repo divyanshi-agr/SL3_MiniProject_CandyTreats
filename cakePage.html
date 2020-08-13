@@ -4,78 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cake Page</title>
+    <link rel="stylesheet" href="stylecake.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html"
-        ><img src="images/logo.png" class="logo" width="80" height="55"
-      /></a>
+    <div class="cakepage-body">
+      <header>
+        <a href="index.html"
+          ><img src="images/logo.png" class="logo" width="80" height="55"
+        /></a>
 
-      <div class="nav1">
+        <div class="nav1">
+          <ul>
+            <a href="index.html"><li class="home-item">Home</li></a>
+            <a href="cakePage.html"><li>Cakes</li></a>
+            <a href="candyPage.html"><li>Candies</li></a>
+          </ul>
+        </div>
+        <div class="nav2">
+          <ul>
+            <a href="formPage.html"><li class="signin-item">Sign Out</li></a>
+            <a href="cartPage.html"
+              ><li><img src="images/cart.png" width="78" height="28" /></li
+            ></a>
+          </ul>
+        </div>
+      </header>
+
+      <aside>
         <ul>
-          <a href="index.html"><li class="home-item">Home</li></a>
-          <a href="sweets.html"><li>Cakes & Candies</li></a>
+          <li>Cupcakes</li>
+          <li>Donuts</li>
+          <li>Macarons</li>
+          <li>Waffles</li>
         </ul>
-      </div>
-      <div class="nav2">
-        <ul>
-          <a href="formPage.html"><li class="signin-item">Sign Out</li></a>
-          <a href="cartPage.html"
-            ><li><img src="images/cart.png" width="80" height="55" /></li
-          ></a>
-        </ul>
-      </div>
-    </header>
+      </aside>
 
-    <aside>
-      <ul>
-        <li>Cupcakes</li>
-        <li>Donuts</li>
-        <li>Macarons</li>
-        <li>Waffles</li>
-      </ul>
-    </aside>
+      <main>
+        <div class="searchbox">
+          <label for="gsearch">Search Google:</label>
+          <input type="search" id="gsearch" name="gsearch" />
+        </div>
 
-    <main>
-      <div class="searchbox">
-        <label for="gsearch">Search Google:</label>
-        <input type="search" id="gsearch" name="gsearch" />
-      </div>
+        <div class="main-section">
+          <ul>
+            <li>
+              <img src="" />
+              <p></p>
+            </li>
+            <li>
+              <img src="" />
+              <p></p>
+            </li>
+            <li>
+              <img src="" />
+              <p></p>
+            </li>
+            <li>
+              <img src="" />
+              <p></p>
+            </li>
+            <li>
+              <img src="" />
+              <p></p>
+            </li>
+            <li>
+              <img src="" />
+              <p></p>
+            </li>
+            <li>
+              <img src="" />
+              <p></p>
+            </li>
+          </ul>
+        </div>
+      </main>
 
-      <div class="main-section">
-        <ul>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-        </ul>
-      </div>
-    </main>
-
-    <footer></footer>
+      <footer></footer>
+    </div>
   </body>
 </html>
