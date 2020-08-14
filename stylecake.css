@@ -10,6 +10,7 @@ body {
   padding: 0;
 }
 
+/* Navbar */
 header {
   display: flex;
   margin: 10px 50px;
@@ -39,4 +40,12 @@ ul a {
 li {
   margin-top: -5px;
   padding: 0 30px;
+}
+
+/*Main section*/
+.cakepage-body {
+  display: flex;
+}
+
+.aside-bar {
 }
