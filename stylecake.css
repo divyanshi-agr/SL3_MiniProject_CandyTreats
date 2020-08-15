@@ -47,10 +47,21 @@ li {
   display: flex;
 }
 
+.aside-bar {
+  border: 1px solid black;
+  margin-left: 50px;
+  text-align: left;
+}
+
 .aside-bar ul {
   list-style-type: none;
 }
 
 .img-section ul {
   list-style-type: none;
+}
+
+.img-section img {
+  width: 300px;
+  height: 180px;
 }
