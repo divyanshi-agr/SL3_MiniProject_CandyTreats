@@ -47,5 +47,10 @@ li {
   display: flex;
 }
 
-.aside-bar {
+.aside-bar ul {
+  list-style-type: none;
+}
+
+.img-section ul {
+  list-style-type: none;
 }
