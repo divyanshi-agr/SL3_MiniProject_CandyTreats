@@ -57,11 +57,17 @@ li {
   list-style-type: none;
 }
 
+.main-pg {
+  width: 50%;
+}
+
 .img-section ul {
   list-style-type: none;
+  display: flex;
 }
 
 .img-section img {
   width: 300px;
   height: 180px;
+  /* float: left; */
 }
