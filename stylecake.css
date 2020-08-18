@@ -3,11 +3,13 @@
 html {
   font-family: "Caveat", cursive;
   box-sizing: border-box;
+  width: 100vw;
 }
 
 body {
   margin: 0;
   padding: 0;
+  /* width: 100%; */
 }
 
 /* Navbar */
@@ -51,6 +53,7 @@ li {
   border: 1px solid black;
   margin-left: 50px;
   text-align: left;
+  font-size: 20px;
 }
 
 .aside-bar ul {
@@ -58,16 +61,32 @@ li {
 }
 
 .main-pg {
-  width: 50%;
+  width: 100vw;
 }
 
-.img-section ul {
-  list-style-type: none;
+.img-section {
   display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+
+.img-n-desc {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
 }
 
 .img-section img {
-  width: 300px;
-  height: 180px;
+  width: 330px;
+  height: 200px;
   /* float: left; */
+}
+
+.title {
+  align-self: center;
+  font-size: 23px;
+}
+
+.price {
+  align-self: center;
 }
