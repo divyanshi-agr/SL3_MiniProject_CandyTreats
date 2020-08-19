@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: "Caveat", cursive;
   box-sizing: border-box;
@@ -29,6 +34,11 @@ ul a {
 
 .nav1 ul {
   margin-left: 130px;
+  margin-top: 15px;
+}
+
+.nav2 ul {
+  margin-top: 15px;
 }
 
 .nav2 a li {
@@ -62,12 +72,14 @@ li {
 
 .main-pg {
   width: 100vw;
+  align-items: center;
 }
 
 .img-section {
   display: flex;
   flex-direction: row;
-  width: 500px;
+  width: 100vw;
+  flex-wrap: wrap;
 }
 
 .img-n-desc {
