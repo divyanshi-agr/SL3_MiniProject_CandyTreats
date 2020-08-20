@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Caveat", cursive;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  font-size: 21px;
+}
+
+.logo {
+  margin-left: 45px;
+}
+
+ul a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #ed3ba5;
+  float: left;
+}
+
+.nav1 ul {
+  margin-left: 130px;
+  margin-top: 15px;
+}
+
+.nav2 ul {
+  margin-top: 15px;
+}
+
+.nav2 a li {
+  color: black;
+}
+
+.nav2 ul a img {
+  margin-top: 0;
+}
+
+li {
+  margin-top: -5px;
+  padding: 0 30px;
+}
+
+/*Img section*/
+.cakepage-body {
+  display: flex;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.img-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex: 2;
+  margin: 30px 100px;
+}
+
+.img-section img {
+  width: 330px;
+  height: 200px;
+}
+
+.img-n-desc {
+  margin: 30px;
+  text-align: center;
+}
+
+.aside-bar {
+  border: 1px solid black;
+  margin-left: 50px;
+  text-align: left;
+  font-size: 20px;
+  flex: 0.4;
+}
+
+.aside-bar ul {
+  list-style-type: none;
+}
+
+.aside-bar li {
+  margin: 10px;
+}
+
+.searchbox {
+  margin-left: 500px;
+  margin-top: 10px;
+}
+
+/* Sign out box */
+
+.signout {
+  /* display: none; */
+  border: 1px solid black;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 500px;
+  height: 300px;
+}
