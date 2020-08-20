@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cake Page</title>
+    <!-- <link rel="stylesheet" href="stylecake.css" /> -->
+    <link rel="stylesheet" href="cake2.css" />
   </head>
   <body>
     <header>
@@ -14,69 +16,83 @@
       <div class="nav1">
         <ul>
           <a href="index.html"><li class="home-item">Home</li></a>
-          <a href="sweets.html"><li>Cakes & Candies</li></a>
+          <a href="cakePage.html"><li>Cakes</li></a>
+          <a href="candyPage.html"><li>Candies</li></a>
         </ul>
       </div>
       <div class="nav2">
         <ul>
           <a href="formPage.html"><li class="signin-item">Sign Out</li></a>
           <a href="cartPage.html"
-            ><li><img src="images/cart.png" width="80" height="55" /></li
+            ><li><img src="images/cart.png" width="76" height="26" /></li
           ></a>
         </ul>
       </div>
     </header>
-
-    <aside>
-      <ul>
-        <li>Caramels</li>
-        <li>Gummies</li>
-        <li>Licorice</li>
-        <li>Chocolates</li>
-        <li>Hard candies</li>
-        <li>Chewing Gums</li>
-      </ul>
-    </aside>
-
-    <main>
-      <div class="searchbox">
-        <label for="gsearch">Search Google:</label>
-        <input type="search" id="gsearch" name="gsearch" />
-      </div>
-
-      <div class="main-section">
+    <div class="cakepage-body">
+      <aside class="aside-bar">
         <ul>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
-          <li>
-            <img src="" />
-            <p></p>
-          </li>
+          <li>Caramels</li>
+          <li>Gummies</li>
+          <li>Licorice</li>
+          <li>Chocolates</li>
+          <li>Hard candies</li>
+          <li>Chewing Gums</li>
         </ul>
-      </div>
-    </main>
+      </aside>
+
+      <main class="main-pg">
+        <div class="searchbox">
+          <label for="gsearch">Search:</label>
+          <input type="search" id="gsearch" name="gsearch" />
+        </div>
+
+        <div class="img-section">
+          <div class="img-n-desc">
+            <img src="/images/apple.jpg" width="300" height="200" />
+            <p class="title">Candy1</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img src="images/belt.jpg" />
+            <p class="title">Candy2</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img src="images/beans.jpg" />
+            <p class="title">Candy3</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img src="images/cable.jpg" />
+            <p class="title">Candy4</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img src="images/cherry cola.jpg" />
+            <p class="title">Candy5</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img src="images/gummybear.jpg" />
+            <p class="title">Candy6</p>
+            <p class="price">Rs. 200</p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="signout">
+      <h2>SIGN OUT</h2>
+      <p>Are you sure you want to sign out?</p>
+      <a href="">CANCEL</a>
+      <a href="">SIGN OUT</a>
+    </div>
 
     <footer></footer>
   </body>
