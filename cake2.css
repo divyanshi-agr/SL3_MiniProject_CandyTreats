@@ -16,18 +16,24 @@ body {
   padding: 0;
   overflow-x: hidden;
   position: relative;
+  background: #fafafa;
 }
 
 /* Navbar */
 header {
   display: flex;
-  margin: 10px;
+
+  margin-bottom: 20px;
   justify-content: space-between;
   font-size: 21px;
+  border-bottom: 1px solid lightgray;
+  background: white;
 }
 
 .logo {
   margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 ul a {
@@ -35,6 +41,7 @@ ul a {
   text-decoration: none;
   color: #ed3ba5;
   float: left;
+  margin: 10px 0;
 }
 
 .nav1 ul {
@@ -81,10 +88,17 @@ li {
 .img-n-desc {
   margin: 30px;
   text-align: center;
+  background: white;
+  font-size: 18px;
+}
+
+.candy .img-n-desc {
+  margin: 40px;
 }
 
 .aside-bar {
-  border: 1px solid black;
+  border: 1px solid lightgray;
+  background: white;
   margin-left: 50px;
   text-align: left;
   font-size: 20px;
@@ -116,4 +130,10 @@ li {
   z-index: 1;
   background: white;
   box-shadow: 5px 5px 20px #b9b7b7;
+}
+
+/* Candy images width */
+.img-section .candy-img {
+  width: 300px;
+  height: 250px;
 }
