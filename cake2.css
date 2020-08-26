@@ -92,6 +92,10 @@ li {
   font-size: 18px;
 }
 
+.img-n-desc p {
+  margin: 7px;
+}
+
 .candy .img-n-desc {
   margin: 40px;
 }
@@ -132,8 +136,8 @@ li {
   box-shadow: 5px 5px 20px #b9b7b7;
 }
 
-/* Candy images width */
+/* Candy images size */
 .img-section .candy-img {
-  width: 300px;
+  width: 290px;
   height: 250px;
 }
