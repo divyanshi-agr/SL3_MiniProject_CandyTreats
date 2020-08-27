@@ -65,3 +65,53 @@ li {
   margin-top: -5px;
   padding: 0 30px;
 }
+
+main {
+  margin: 10px;
+}
+
+.item {
+  background: white;
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  height: 260px;
+}
+
+.item-img {
+  margin: auto 0;
+}
+
+.item-btns {
+  margin: auto 0;
+}
+
+.item button {
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 120px;
+  background: #ffd3e1;
+  transition: all 1s;
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+  font-size: 18px;
+}
+
+.item button:hover {
+  background: #faa5d8;
+}
+
+.item-desc {
+  margin: auto 0;
+  font-size: 18px;
+}
+
+/* .item-desc strong {
+  margin: 0 20px;
+} */
+
+.item-desc h3 {
+  font-weight: normal;
+}
