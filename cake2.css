@@ -26,7 +26,7 @@ header {
   margin-bottom: 20px;
   justify-content: space-between;
   font-size: 21px;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid rgb(240, 240, 240);
   background: white;
 }
 
@@ -101,7 +101,7 @@ li {
 }
 
 .aside-bar {
-  border: 1px solid lightgray;
+  border: 1px solid rgb(240, 240, 240);
   background: white;
   margin-left: 50px;
   text-align: left;
@@ -114,7 +114,7 @@ li {
 }
 
 .aside-bar li {
-  margin: 10px;
+  margin: 20px;
 }
 
 .searchbox {
@@ -128,12 +128,31 @@ li {
   display: none;
   position: absolute;
   top: 20%;
-  left: 40%;
+  left: 35%;
   width: 500px;
   height: 250px;
   z-index: 1;
   background: white;
   box-shadow: 5px 5px 20px #b9b7b7;
+}
+
+.signout h2,
+.signout a,
+.signout p {
+  margin: 30px;
+  text-decoration: none;
+}
+
+.signout p {
+  font-size: 22px;
+}
+
+.signout a {
+  margin-top: 50px;
+}
+
+.signin-item:active .signout {
+  display: block;
 }
 
 /* Candy images size */
