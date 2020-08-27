@@ -99,7 +99,8 @@ main {
   font-size: 18px;
 }
 
-.item button:hover {
+.item button:hover,
+.end-buttons button:hover {
   background: #faa5d8;
 }
 
@@ -114,4 +115,23 @@ main {
 
 .item-desc h3 {
   font-weight: normal;
+}
+
+.end-buttons {
+  margin: 40px;
+}
+
+.end-buttons button {
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 120px;
+  background: #ffd3e1;
+  transition: all 1s;
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+  font-size: 18px;
+  transition: all 1s;
+  float: right;
 }
