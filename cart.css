@@ -123,6 +123,7 @@ main {
 
 .end-buttons button {
   margin: 10px;
+  margin-bottom: 30px;
   padding: 10px;
   outline: none;
   border: none;
