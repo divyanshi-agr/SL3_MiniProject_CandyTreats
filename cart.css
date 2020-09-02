@@ -72,7 +72,7 @@ main {
 
 .item {
   background: white;
-  margin: 45px;
+  margin: 40px;
   display: flex;
   justify-content: space-between;
   height: 260px;
@@ -93,14 +93,14 @@ main {
   border: none;
   width: 120px;
   background: #ffd3e1;
-
   transition: all 1s;
   cursor: pointer;
   font-family: "Caveat", cursive;
   font-size: 18px;
 }
 
-.item button:hover {
+.item button:hover,
+.end-buttons button:hover {
   background: #faa5d8;
 }
 
@@ -128,17 +128,12 @@ main {
   outline: none;
   border: none;
   width: 120px;
-  /* background: #ffd3e1; */
+  background: white;
   transition: all 1s;
   cursor: pointer;
   font-family: "Caveat", cursive;
   font-size: 18px;
-
+  transition: all 1s;
   float: right;
-  border: 2px solid #eb1e99;
-  background-color: white;
-}
-
-.end-buttons button:hover {
-  background: #ffd3e1;
+  border: 2px solid #faa5d8;
 }
