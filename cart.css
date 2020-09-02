@@ -128,11 +128,14 @@ main {
   outline: none;
   border: none;
   width: 120px;
-  background: #ffd3e1;
+  /* background: #ffd3e1; */
   transition: all 1s;
   cursor: pointer;
   font-family: "Caveat", cursive;
   font-size: 18px;
   transition: all 1s;
   float: right;
+  border: 2px solid #eb1e99;
+  background-color: white;
+  border-radius: 50px;
 }
