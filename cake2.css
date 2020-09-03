@@ -29,6 +29,7 @@ header {
   font-size: 21px;
   border-bottom: 1px solid rgb(240, 240, 240);
   background: white;
+  z-index: 1;
 }
 
 .logo {
@@ -91,6 +92,12 @@ li {
   text-align: center;
   background: white;
   font-size: 18px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.img-n-desc:hover {
+  transform: scale(1.1);
 }
 
 .img-n-desc p {
@@ -114,8 +121,35 @@ li {
   list-style-type: none;
 }
 
-.aside-bar li {
+/* .aside-bar li {
   margin: 20px;
+} */
+
+.aside-bar a {
+  text-decoration: none;
+  color: black;
+  margin: 12px;
+}
+.aside-bar a {
+  position: relative;
+}
+
+.aside-bar a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.aside-bar a:hover:before {
+  visibility: visible;
+  transform: scaleX(0.5);
 }
 
 .searchbox {
@@ -159,5 +193,5 @@ li {
 /* Candy images size */
 .img-section .candy-img {
   width: 290px;
-  height: 250px;
+  height: 260px;
 }
