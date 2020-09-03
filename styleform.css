@@ -17,11 +17,20 @@ body {
 /* Navbar */
 header {
   display: flex;
-  margin: 10px 50px;
-  justify-content: space-between;
-  font-size: 21px;
   position: sticky;
   top: 0;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  font-size: 21px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  background: white;
+  z-index: 1;
+}
+
+.logo {
+  margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 ul a {
@@ -29,28 +38,37 @@ ul a {
   text-decoration: none;
   color: #ed3ba5;
   float: left;
+  margin: 10px 0;
 }
 
 .nav1 ul {
   margin-left: 130px;
+  margin-top: 15px;
+}
+
+.nav2 ul {
+  margin-top: 15px;
 }
 
 .nav2 a li {
   color: black;
 }
 
+.nav2 ul a img {
+  margin-top: 0;
+}
+
 li {
   margin-top: -5px;
   padding: 0 30px;
 }
-
 /* Form-body */
 .main-form {
   position: absolute;
   left: 35%;
-  box-shadow: 5px 5px 20px #b9b7b7;
-  top: 300%;
-  height: 620%;
+  box-shadow: 1px 1px 10px #dddddd;
+  top: 200%;
+  height: 480%;
   width: 30%;
   border-radius: 5px;
 }
