@@ -122,7 +122,7 @@ main {
   margin: 40px;
 }
 
-/* .end-buttons button {
+.end-buttons button {
   margin: 10px;
   margin-bottom: 30px;
   padding: 10px;
@@ -137,4 +137,4 @@ main {
   transition: all 1s;
   float: right;
   border: 2px solid #faa5d8;
-} */
+}
