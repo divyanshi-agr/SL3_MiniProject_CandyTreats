@@ -129,7 +129,7 @@ main {
   outline: none;
   border: none;
   width: 120px;
-  background: white;
+  /* background: white; */
   transition: all 1s;
   cursor: pointer;
   font-family: "Caveat", cursive;
