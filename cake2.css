@@ -71,8 +71,19 @@ li {
 /*Img section*/
 .cakepage-body {
   display: flex;
+  flex-direction: column;
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.bottom-nav {
+  /* align-self: center; */
+}
+
+.bottom-nav li {
+  margin: 0 30px;
+  font-size: 22px;
+  color: black;
 }
 
 .img-section {
@@ -83,8 +94,8 @@ li {
 }
 
 .img-section img {
-  width: 330px;
-  height: 200px;
+  width: 100%;
+  height: 220px;
 }
 
 .img-n-desc {
@@ -97,7 +108,7 @@ li {
 }
 
 .img-n-desc:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 .img-n-desc p {
@@ -108,7 +119,7 @@ li {
   margin: 40px;
 }
 
-.aside-bar {
+/* .aside-bar {
   border: 1px solid rgb(240, 240, 240);
   background: white;
   margin-left: 50px;
@@ -119,22 +130,22 @@ li {
 
 .aside-bar ul {
   list-style-type: none;
-}
+} */
 
 /* .aside-bar li {
   margin: 20px;
 } */
 
-.aside-bar a {
+.bottom-nav a {
   text-decoration: none;
   color: black;
   margin: 12px;
 }
-.aside-bar a {
+.bottom-nav a {
   position: relative;
 }
 
-.aside-bar a:before {
+.bottom-nav a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -147,7 +158,7 @@ li {
   transition: all 0.3s ease-in-out;
 }
 
-.aside-bar a:hover:before {
+.bottom-nav a:hover:before {
   visibility: visible;
   transform: scaleX(0.5);
 }
@@ -159,39 +170,43 @@ li {
 
 /* Sign out box */
 
-.signout {
+#signout {
   display: none;
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 35%;
   width: 500px;
-  height: 250px;
+  height: 230px;
   z-index: 1;
+  border-radius: 3px;
   background: white;
   box-shadow: 5px 5px 20px #b9b7b7;
 }
 
-.signout h2,
-.signout a,
-.signout p {
+#signout h2,
+#signout a,
+#signout p {
   margin: 30px;
   text-decoration: none;
 }
 
-.signout p {
+#signout p {
   font-size: 22px;
+  margin-bottom: 50px;
 }
 
-.signout a {
-  margin-top: 50px;
-}
-
-.signin-item:active .signout {
-  display: block;
+#signout a {
+  margin-top: 100px;
+  text-decoration: none;
+  color: black;
 }
 
 /* Candy images size */
 .img-section .candy-img {
   width: 290px;
   height: 260px;
+}
+
+.signin-item {
+  cursor: pointer;
 }

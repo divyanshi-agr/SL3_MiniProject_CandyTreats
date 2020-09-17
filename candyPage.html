@@ -22,7 +22,9 @@
       </div>
       <div class="nav2">
         <ul>
-          <a href="formPage.html"><li class="signin-item">Sign Out</li></a>
+          <a onclick="showSignOutForm()"
+            ><li class="signin-item">Sign Out</li></a
+          >
           <a href="cartPage.html"
             ><li><img src="images/cart.png" width="76" height="26" /></li
           ></a>
@@ -112,13 +114,19 @@
       </main>
     </div>
 
-    <div class="signout">
+    <div id="signout">
       <h2>SIGN OUT</h2>
       <p>Are you sure you want to sign out?</p>
       <a href="">CANCEL</a>
-      <a href="">SIGN OUT</a>
+      <a href="index.html" id="form-signout" href="">SIGN OUT</a>
     </div>
 
     <footer></footer>
+
+    <script>
+      const showSignOutForm = () => {
+        document.getElementById("signout").style.display = "block";
+      };
+    </script>
   </body>
 </html>
