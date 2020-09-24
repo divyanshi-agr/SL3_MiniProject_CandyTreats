@@ -77,11 +77,11 @@ li {
 }
 
 .bottom-nav {
-  /* align-self: center; */
+  align-self: center;
 }
 
 .bottom-nav li {
-  margin: 0 30px;
+  margin: 0 20px;
   font-size: 22px;
   color: black;
 }
@@ -145,6 +145,10 @@ li {
   position: relative;
 }
 
+.bottom-nav {
+  background-color: #fafafa;
+}
+
 .bottom-nav a:before {
   content: "";
   position: absolute;
@@ -201,6 +205,9 @@ li {
   color: black;
 }
 
+#signout:focus body {
+  background-color: black;
+}
 /* Candy images size */
 .img-section .candy-img {
   width: 290px;
@@ -209,4 +216,21 @@ li {
 
 .signin-item {
   cursor: pointer;
+}
+
+/*Focused item*/
+.focusedItem {
+  display: none;
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  background-color: #b9b7b7;
+  position: absolute;
+  top: 12%;
+  left: 32%;
+  padding: 20px;
+}
+
+.focusedItem-desc {
+  margin: 20px;
 }

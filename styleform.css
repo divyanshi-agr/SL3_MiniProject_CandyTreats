@@ -68,9 +68,14 @@ li {
   left: 35%;
   box-shadow: 1px 1px 10px #dddddd;
   top: 200%;
-  height: 480%;
+  height: 560%;
   width: 30%;
   border-radius: 5px;
+}
+
+.main-form > h1 {
+  font-weight: 550;
+  text-align: center;
 }
 
 form {
