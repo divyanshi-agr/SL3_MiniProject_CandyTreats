@@ -78,12 +78,25 @@ li {
 
 .bottom-nav {
   align-self: center;
+  margin-bottom: 30px;
 }
 
 .bottom-nav li {
   margin: 0 20px;
   font-size: 22px;
   color: black;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.item > h1 {
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .img-section {
@@ -118,23 +131,6 @@ li {
 .candy .img-n-desc {
   margin: 40px;
 }
-
-/* .aside-bar {
-  border: 1px solid rgb(240, 240, 240);
-  background: white;
-  margin-left: 50px;
-  text-align: left;
-  font-size: 20px;
-  flex: 0.4;
-}
-
-.aside-bar ul {
-  list-style-type: none;
-} */
-
-/* .aside-bar li {
-  margin: 20px;
-} */
 
 .bottom-nav a {
   text-decoration: none;

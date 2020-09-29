@@ -22,7 +22,7 @@
       </div>
       <div class="nav2">
         <ul>
-          <a onclick="showSignOutForm()"
+          <a onclick="showSignOutForm() ,on()"
             ><li class="signin-item">Sign Out</li></a
           >
           <a href="cartPage.html"
@@ -34,97 +34,203 @@
     <div class="cakepage-body">
       <div class="bottom-nav">
         <ul>
-          <a href=""><li>Hard Candies</li></a>
-          <a href=""><li>Gummies</li></a>
-          <a href=""><li>Bubble Gum</li></a>
-          <a href=""><li>Chocolates</li></a>
+          <a href="#chocolates"><li>Chocolates</li></a>
+          <a href="#hardCandy"><li>Hard Candies</li></a>
+          <a href="#gummies"><li>Gummies</li></a>
+          <a href="#bubbleGum"><li>Bubble Gum</li></a>
         </ul>
+      </div>
+
+      <!-- Chocolates -->
+      <div class="item" id="chocolates">
+        <h1>Chocolates</h1>
+
+        <div class="img-section">
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://cdn.pixabay.com/photo/2015/03/26/23/09/cake-pops-693645_1280.jpg"
+            />
+            <p class="title">Choco 1</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://cdn.pixabay.com/photo/2017/02/11/14/19/valentines-day-2057745_1280.jpg"
+            />
+            <p class="title">Choco 2</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://5.imimg.com/data5/XQ/VT/MY-38426655/handmade-chocolates-500x500.jpg"
+            />
+            <p class="title">Choco 3</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://i.ndtvimg.com/i/2015-06/chocolate_625x350_81434346507.jpg"
+            />
+            <p class="title">Choco 4</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://images2.minutemediacdn.com/image/upload/c_crop,h_842,w_1500,x_0,y_88/f_auto,q_auto,w_1100/v1555006794/shape/mentalfloss/istock-522735736.jpg"
+            />
+            <p class="title">Choco 5</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://images.unsplash.com/photo-1585132074167-85fea50c4d93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            />
+            <p class="title">Choco 6</p>
+            <p class="price">Rs. 200</p>
+          </div>
+        </div>
       </div>
 
       <!-- Hard candies -->
 
-      <div class="img-section candy">
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://cdn.pixabay.com/photo/2017/01/04/19/41/caramel-1952997_1280.jpg"
-          />
-          <p class="title">Hard Candy 1</p>
-          <p class="price">Rs. 200</p>
-        </div>
+      <div class="item" id="hardCandy">
+        <h1>Hard Candies</h1>
 
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://images.pexels.com/photos/1205648/pexels-photo-1205648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          />
-          <p class="title">Hard Candy 2</p>
-          <p class="price">Rs. 200</p>
-        </div>
+        <div class="img-section">
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://cdn.pixabay.com/photo/2017/01/04/19/41/caramel-1952997_1280.jpg"
+            />
+            <p class="title">Hard Candy 1</p>
+            <p class="price">Rs. 200</p>
+          </div>
 
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://images.pexels.com/photos/1906435/pexels-photo-1906435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          />
-          <p class="title">Hard Candy 5</p>
-          <p class="price">Rs. 200</p>
-        </div>
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://images.pexels.com/photos/1205648/pexels-photo-1205648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            />
+            <p class="title">Hard Candy 2</p>
+            <p class="price">Rs. 200</p>
+          </div>
 
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://cdn.pixabay.com/photo/2017/02/21/22/12/candy-2087627_1280.jpg"
-          />
-          <p class="title">Hard Candy 4</p>
-          <p class="price">Rs. 200</p>
-        </div>
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://images.pexels.com/photos/1906435/pexels-photo-1906435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            />
+            <p class="title">Hard Candy 5</p>
+            <p class="price">Rs. 200</p>
+          </div>
 
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://smhttp-ssl-60529-live.nexcesscdn.net/pub/media/catalog/product/cache/4226787a49a240193bc173af0a49120d/c/h/christmas-cut-rock-candy.jpg"
-          />
-          <p class="title">Hard Candy 5</p>
-          <p class="price">Rs. 200</p>
-        </div>
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://cdn.pixabay.com/photo/2017/02/21/22/12/candy-2087627_1280.jpg"
+            />
+            <p class="title">Hard Candy 4</p>
+            <p class="price">Rs. 200</p>
+          </div>
 
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://cdn.pixabay.com/photo/2017/01/07/20/40/candy-1961539_1280.jpg"
-          />
-          <p class="title">Hard Candy 6</p>
-          <p class="price">Rs. 200</p>
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://smhttp-ssl-60529-live.nexcesscdn.net/pub/media/catalog/product/cache/4226787a49a240193bc173af0a49120d/c/h/christmas-cut-rock-candy.jpg"
+            />
+            <p class="title">Hard Candy 5</p>
+            <p class="price">Rs. 200</p>
+          </div>
+
+          <div class="img-n-desc">
+            <img
+              class="candy-img"
+              src="https://cdn.pixabay.com/photo/2017/01/07/20/40/candy-1961539_1280.jpg"
+            />
+            <p class="title">Hard Candy 6</p>
+            <p class="price">Rs. 200</p>
+          </div>
         </div>
 
         <!-- Gummies -->
 
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://www.houseofcandy.in/wp-content/uploads/2020/08/bubblegumball-400x400.jpg"
-          />
-          <p class="title">Candy 6</p>
-          <p class="price">Rs. 200</p>
+        <div class="item" id="gummies">
+          <h1>Gummies</h1>
+
+          <div class="img-section">
+            <div class="img-n-desc">
+              <img
+                class="candy-img"
+                src="https://cdn.pixabay.com/photo/2014/04/07/05/25/gummibarchen-318362_1280.jpg"
+              />
+              <p class="title">Gummy 1</p>
+              <p class="price">Rs. 200</p>
+            </div>
+
+            <div class="img-n-desc">
+              <img
+                class="candy-img"
+                src="https://cdn.pixabay.com/photo/2013/08/10/18/41/candy-171343_1280.jpg"
+              />
+              <p class="title">Gummy 2</p>
+              <p class="price">Rs. 200</p>
+            </div>
+
+            <div class="img-n-desc">
+              <img
+                class="candy-img"
+                src="https://www.cbdbreaker.com/wp-content/uploads/2018/12/Header-Gummies-1024x582.jpg"
+              />
+              <p class="title">Gummy 3</p>
+              <p class="price">Rs. 200</p>
+            </div>
+          </div>
         </div>
 
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://www.houseofcandy.in/wp-content/uploads/2020/08/DSC_6145-copy-400x400.jpg"
-          />
-          <p class="title">Candy 6</p>
-          <p class="price">Rs. 200</p>
-        </div>
+        <!-- Bubble Gum- -->
 
-        <div class="img-n-desc">
-          <img
-            class="candy-img"
-            src="https://www.houseofcandy.in/wp-content/uploads/2020/08/ASSORTED-GUMMY-BEAR-400x400.jpg"
-          />
-          <p class="title">Candy 6</p>
-          <p class="price">Rs. 200</p>
+        <div class="item" id="bubbleGum">
+          <h1>Bubble Gums</h1>
+
+          <div class="img-section">
+            <div class="img-n-desc">
+              <img
+                class="candy-img"
+                src="https://i.ytimg.com/vi/LanJO4BlOmc/maxresdefault.jpg"
+              />
+              <p class="title">Bubble Gum 1</p>
+              <p class="price">Rs. 200</p>
+            </div>
+
+            <div class="img-n-desc">
+              <img
+                class="candy-img"
+                src="https://img1.mashed.com/img/gallery/what-you-dont-want-to-know-about-bubble-gum/intro-1589548856.jpg"
+              />
+              <p class="title">Bubble Gum 2</p>
+              <p class="price">Rs. 200</p>
+            </div>
+
+            <div class="img-n-desc">
+              <img
+                class="candy-img"
+                src="https://raveflavors-com.3dcartstores.com/assets/images/Bubblegum.jpg"
+              />
+              <p class="title">Bubble Gum 3</p>
+              <p class="price">Rs. 200</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -136,11 +242,20 @@
       <a href="index.html" id="form-signout" href="">SIGN OUT</a>
     </div>
 
+    <div id="overlay" onclick="off()"></div>
+
     <footer></footer>
 
     <script>
       const showSignOutForm = () => {
         document.getElementById("signout").style.display = "block";
+      };
+      const on = () => {
+        document.getElementById("overlay").style.display = "block";
+      };
+
+      const off = () => {
+        document.getElementById("overlay").style.display = "none";
       };
     </script>
   </body>
