@@ -28,7 +28,8 @@ header {
   justify-content: space-between;
   font-size: 21px;
   border-bottom: 1px solid rgb(240, 240, 240);
-  background: white;
+  background: #fde0e9;
+  z-index: 1;
 }
 
 .logo {
@@ -93,7 +94,8 @@ main {
   outline: none;
   border: none;
   width: 120px;
-  background: #ffd3e1;
+  background: white;
+  border: 2px solid #faa5d8;
   transition: all 1s;
   cursor: pointer;
   font-family: "Caveat", cursive;
@@ -129,12 +131,11 @@ main {
   outline: none;
   border: none;
   width: 120px;
-  background: white;
   transition: all 1s;
   cursor: pointer;
   font-family: "Caveat", cursive;
   font-size: 18px;
   transition: all 1s;
   float: right;
-  border: 2px solid #faa5d8;
+  background: #ffd3e1;
 }

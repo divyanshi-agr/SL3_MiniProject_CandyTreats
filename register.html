@@ -8,41 +8,43 @@
   </head>
   <body>
     <div class="page-body">
-      <header>
-        <a href="index.html"
-          ><img src="images/logo.png" class="logo" width="80" height="55"
-        /></a>
-
-        <div class="nav1">
-          <ul>
-            <a href="index.html"><li class="home-item">Home</li></a>
-            <a href="cakePage.html"><li>Cakes</li></a>
-            <a href="candyPage.html"><li>Candies</li></a>
-          </ul>
+      <div class="main-form">
+        <div class="header">
+          <h1>Register</h1>
         </div>
-        <div class="nav2">
-          <ul>
-            <a href="signin.html"><li class="signin-item">Sign In</li></a>
-            <a href="register.html"><li class="signin-item">Register</li></a>
-          </ul>
-        </div>
-      </header>
 
-      <main class="main-form">
-        <h1>Register</h1>
-        <form>
-          <label for="fname">Name</label><br />
-          <input type="text" id="name" name="name" /><br />
-          <label for="email">Email</label><br />
-          <input type="text" id="email" name="email" />
-          <label for="pwd">Password</label>
-          <input type="password" id="pwd" name="pwd" />
+        <form id="form">
+          <div class="form-control">
+            <label for="fname">Username</label><br />
+            <input
+              type="text"
+              id="username"
+              name="name"
+              required
+              minlength="6"
+              maxlength="6"
+            />
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="email">Email</label><br />
+            <input type="text" id="email" name="email" />
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pwd" />
+            <small>Error message</small>
+          </div>
+
           <input type="submit" value="Register" />
           <p class="form-para">
-            Already have an account? <a href="signin.html"> Sign in</a>
+            Already have an account? <a href="signin.html"> Signin</a>
           </p>
         </form>
-      </main>
+      </div>
 
       <footer></footer>
     </div>
