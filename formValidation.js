@@ -6,7 +6,12 @@ const password = document.getElementById("pwd");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  checkInputs();
+  let isValid;
+  isValid = checkInputs();
+
+  if (isValid) {
+    window.location = "index.html";
+  }
 });
 
 function checkInputs() {
@@ -15,25 +20,53 @@ function checkInputs() {
   const emailVal = email.value.trim();
   const passwordVal = password.value.trim();
 
-  if (usernameVal === "") {
-    //show error
-    setErrorFor(username, "Username cannot be empty");
-    //add error class
-  }
+  return (
+    verifyEmail(emailVal) && verifyName(usernameVal) && verifyPwd(passwordVal)
+  );
+}
+
+function verifyEmail(emailVal) {
+  let isValid = true;
 
   if (emailVal === "") {
-    //show error
     setErrorFor(email, "Email cannot be empty");
-    //add error class
+    isValid = false;
   } else if (!isEmail(emailVal)) {
     setErrorFor(email, "Email is invalid");
+    isValid = false;
+  } else {
+    setSuccessFor(email);
+    isValid = true;
   }
 
-  if (passwordVal === "") {
-    //show error
-    setErrorFor(password, "Password cannot be empty");
-    //add error class
+  return isValid;
+}
+
+function verifyName(usernameVal) {
+  let isValid = true;
+
+  if (usernameVal === "") {
+    setErrorFor(username, "Username cannot be empty");
+    isValid = false;
+  } else {
+    setSuccessFor(username);
+    isValid = true;
   }
+
+  return isValid;
+}
+
+function verifyPwd(passwordVal) {
+  let isValid = true;
+  if (passwordVal === "") {
+    setErrorFor(password, "Password cannot be empty");
+    isValid = false;
+  } else {
+    setSuccessFor(password);
+    isValid = true;
+  }
+
+  return isValid;
 }
 
 function setErrorFor(input, message) {
@@ -45,6 +78,13 @@ function setErrorFor(input, message) {
 
   //add err class
   formControl.className = "form-control error";
+}
+
+function setSuccessFor(input) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector("small");
+  formControl.className = "form-control success";
+  small.style.visibility = "hidden";
 }
 
 function isEmail(email) {
