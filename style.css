@@ -98,10 +98,21 @@ li {
 }
 
 /* pink section text */
-main h1 {
-  position: absolute;
-  top: 31%;
+.ml10 {
+  position: relative;
+  font-weight: 900;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
   left: -55%;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 5.5em;
+  transform-origin: 0 0;
   color: #ec41a7;
   font-size: 110px;
   text-transform: uppercase;

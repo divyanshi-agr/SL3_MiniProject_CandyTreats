@@ -10,7 +10,7 @@ form.addEventListener("submit", (e) => {
   isValid = checkInputs();
 
   if (isValid) {
-    window.location = "index.html";
+    window.location = "./index.html";
   }
 });
 
@@ -48,6 +48,9 @@ function verifyName(usernameVal) {
   if (usernameVal === "") {
     setErrorFor(username, "Username cannot be empty");
     isValid = false;
+  } else if (!isName(usernameVal)) {
+    setErrorFor(username, "Name entered can contain only alphabets!");
+    isValid = false;
   } else {
     setSuccessFor(username);
     isValid = true;
@@ -60,6 +63,9 @@ function verifyPwd(passwordVal) {
   let isValid = true;
   if (passwordVal === "") {
     setErrorFor(password, "Password cannot be empty");
+    isValid = false;
+  } else if (!isPwd(passwordVal)) {
+    setErrorFor(password, "Invalid Password!");
     isValid = false;
   } else {
     setSuccessFor(password);
@@ -88,7 +94,16 @@ function setSuccessFor(input) {
 }
 
 function isEmail(email) {
-  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
-    email
-  );
+  let emailLetters = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.]+\.[a-zA-Z]{2,4}$/;
+  return emailLetters.test(email);
+}
+
+function isName(username) {
+  let letters = /^[A-Za-z]+$/;
+  return letters.test(username);
+}
+
+function isPwd(password) {
+  let pwdLetters = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{6,15}$/;
+  return pwdLetters.test(password);
 }
