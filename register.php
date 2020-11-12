@@ -56,6 +56,15 @@
       $data = htmlspecialchars($data);
       return $data;
       }
+
+      if (isset($_POST['submitform']))
+      {   
+        ?>
+        <script type="text/javascript">
+        window.location = "index.html";
+        </script>      
+        <?php
+      }
   ?>
 
     <div class="page-body">
@@ -89,6 +98,7 @@
             <input type="password" id="pwd" name="pwd" required />
             <span class="error"><?php echo $pswdErr;?></span>
           </div>
+
 
           <input type="submit" value="Register" />
           <p class="form-para">

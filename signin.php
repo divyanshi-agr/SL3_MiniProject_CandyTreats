@@ -56,6 +56,16 @@
       $data = htmlspecialchars($data);
       return $data;
       }
+
+      if (isset($_POST['submitform']))
+      {   
+        ?>
+        <script type="text/javascript">
+        window.location = "index.html";
+        </script>      
+        <?php
+      }
+
   ?>
 
     <div class="page-body">
@@ -91,7 +101,7 @@
       <span class="error"><?php echo $pswdErr;?></span>
     </div>
 
-    <input type="submit" value="Sign in" />
+    <input type="submit" value="Sign in" name="submitform" />
     <p class="form-para">
       Don't have an account? <a href="register.html"> Register</a>
     </p> 
