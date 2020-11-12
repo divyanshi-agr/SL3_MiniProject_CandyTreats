@@ -120,18 +120,18 @@ form {
   padding: 6px;
 }
 
-.form-control small {
+.form-control > span {
   visibility: hidden;
   position: absolute;
   bottom: 0;
   left: 3%;
-  font-size: 17px;
+  font-size: 20px;
   margin-top: 1px;
 }
 
 input[type="submit"] {
   width: 40%;
-  /* border: 3px solid #5dc261; */
+  border: 3px solid #5dc261;
   background: #ffd3e1;
   border: none;
   padding: 8px 20px;
@@ -164,7 +164,7 @@ input[type="submit"] {
   border-color: #e74c3c;
 }
 
-.error small {
+.error {
   visibility: visible;
   color: #e74c3c;
 }
