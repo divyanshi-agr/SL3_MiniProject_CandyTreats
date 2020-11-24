@@ -57,15 +57,7 @@
       return $data;
       }
 
-      if (isset($_POST['submitform']))
-      {   
-        ?>
-        <script type="text/javascript">
-        window.location = "index.html";
-        </script>      
-        <?php
-      }
-
+      
   ?>
 
     <div class="page-body">
